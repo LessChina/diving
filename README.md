@@ -25,6 +25,9 @@ docker run -d --restart=always \
 **【推荐】用来探索`docker`镜像背后的每一层文件系统，以及发现缩小镜像体积方法的命令行工具（启动命令：`dive 镜像名`）**
 > <https://github.com/LessChina/dive>
 
+**分析正在运行的Docker容器的资源使用情况和性能特征**：
+> <https://github.com/LessChina/cadvisor>
+
 **【推荐】不改变内容缩小Docker镜像**：
 > <https://github.com/lotapp/docker-slim>
 
@@ -33,3 +36,5 @@ docker run -d --restart=always \
 
 **Docker终端管理工具**
 > <https://github.com/lotapp/docui>
+
+PS：另一款完整管理平台：<https://github.com/lotapp/rancher>
